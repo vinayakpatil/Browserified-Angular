@@ -1,0 +1,24 @@
+{
+  "name": "Browserified_Angular",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "napa"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route"
+  },
+  "author": "Vinayak Patil",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "browserify": "~8.1.1",
+    "browserify-shim": "~3.8.2",
+    "napa": "~1.2.0",
+    "watchify": "~2.2.1"
+  },
+  "browser": {},
+  "dependencies": {}
+}
